@@ -1,0 +1,46 @@
+body {
+    background-image: linear-gradient(black, rgb(25, 25, 70));
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: solid 2px white;
+    flex-grow: 0;
+}
+
+.heading {
+    font-size: 2em;
+    font-family: Play;
+    font-weight: bold;
+    background-image: linear-gradient(rgb(185, 53, 53), rgb(19, 131, 131));
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    background-image: linear-gradient(rgb(67, 159, 67), rgb(227, 194, 46));
+    color: white;
+}
+
+.list-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 1.4em;
+    font-family: Play;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    border-top: solid 2px white;
+}
